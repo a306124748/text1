@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>一级标题</h1>
+	<h2>二级标题</h2>
+	<p>文章作者 文章发表时间</p>
+	<ol>
+		<li>排名1</li>
+		<li>排名2</li>
+		<li>排名3</li>
+	</ol>
+	<p>下面是一个表格，给表格加一个border=“1”好让你看出是一个表格</p>
+	<table border=1>
+     <thead>
+        <tr>
+          <td>参演时间</td>
+          <td>主要作品</td>
+          <td>合作明星</td>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+          <td>2002年</td>
+          <td>《爱情白皮书》</td>
+          <td>杨丞琳</td>
+        </tr>
+         <tr>
+          <td>2004年</td>
+          <td>《仙剑奇侠传》</td>
+          <td>胡歌</td>
+        </tr>
+         <tr>
+          <td>2011年</td>
+          <td>《翻滚吧阿信》</td>
+          <td>>陈汉典</td>
+        </tr>
+         <tr>
+          <td>2016年</td>
+          <td>《湄公河行动》</td>
+          <td>张涵予</td>
+        </tr>
+     </tbody>
+     <tfoot>
+        <tr>
+          <td>总结</td>
+           <td colspan=2> 彭于晏是个非常棒的演员</td>
+        </tr>
+      </tfoot>
+    </table>
+    <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+    <div class="form-container">
+     <form action="#" method="GET"> 
+       <div class="email-address-wrapper">
+         <label for="email-address">请输入邮箱地址：</label> <br>
+         <input type="text" name="email-address" id="email-address" placeholder="请输入邮箱地址：">
+       </div>
+       <p>邮箱地址请按要求格式输入</p> 
+       <div class="password-wrapper">
+         <label for="password">请输入密码:</label><br>
+         <input type="text" name="password" id="password" placeholder="请输入密码"> <br>
+       </div>
+       <div class="password-repeat-wrapper">
+         <label for="password-repeat">请重复输入密码:</label><br>
+         <input type="text" name="password-repeat" id="password-repeat" placeholder="请重复输入密码"> <br>
+       </div>
+      </form>	
+    </div>
+    <p>
+    	密码请为6-16位英文数字
+    </p>
+    <div>性别：
+     <form >
+       <label for="male">男</label>
+       <input type="radio" name="sex"  id="male" checked><br>
+       <label for="female">女</label>
+       <input type="radio" name="sex" id="female"> 
+     </form> 
+    </div> 
+    <div>城市：
+     <form action="/demo/demo_form.asp">
+      <select name="cars">
+      <option value="北京">北京</option>
+      <option value="福州">福州</option>
+      <option value="杭州">杭州</option>
+      <option value="上海">上海</option>
+      </select>
+     </form> 
+    <div>爱好：
+     <form>
+      <input type="checkbox" name="hobby" id="运动">
+      <label for="运动">运动</label><br>
+      <input type="checkbox" name="hobby" id="科学">
+      <label for="科学">科学</label><br>
+     </form> 
+    </div>
+    <p>个人描述：
+    <textarea name="messa rows="5" cols="30"></textarea>
+    </p>
+</html>
